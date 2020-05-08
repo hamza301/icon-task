@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif ;     
+}
+#services i {
+    font-size: 8em; 
+}
+#services figure:hover > i{
+    color: #ef3b4d;
+}
+#services i:hover { 
+
+    color: #ef3b4d;
+}
+footer i{
+    font-size: 1.3em;
+    margin: 0 5px;
+}
+footer:hover i{
+    color: #ef3b4d;
+}
+i{ transition: color 2s,background-color 1s;
+}
+#contact i {
+    font-size: 3em;
+    border-radius:50px ;
+    border: 1px solid #222;
+    padding: 23px 19px;
+    margin: 0 10px;
+   
+}
+#contact i:hover {
+    background-color: #222;
+    color:#fcdea6;
+
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+}
+#logo {
+    height: 40px;
+    padding: 10px;
+    margin-left: 1em;
+}
+h1{
+    font-size: 4em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    font-family: 'Sofia', cursive;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+main > section,
+footer {
+    padding:2em;
+    text-align: center;
+}
+
+#home{
+    background-color: #f18d97;
+}
+main > section > p {
+    font-size: 1.4em;
+    border-width: 1px 0 1px 0;
+    border-color: #222;
+    border-style: solid;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+#home button {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #f18d97;
+    border: none;
+    padding: 0.8em 3em;
+    font-size: 2em;
+}
+#home button:hover {
+    background-color: #222;
+    cursor: pointer;
+}
+#services {
+    background-color: #efece7;
+}
+#services .figures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services figure {
+    /* display:inline_block;*/
+    max-width: 400px;
+}
+#contact {
+    background-color: #afc7c6;    
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 0;
+
+}
+footer{
+    background-color: #222;
+    color: white;
+}
+
+
+
+
+
